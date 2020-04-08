@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:padding="16dp"
-    tools:context="org.snowcorp.imageupload.MainActivity"
-    android:orientation="vertical">
+    tools:context="org.snowcorp.imageupload.MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Upload Image using Volley"
-        android:id="@+id/textView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="10dp"/>
+        android:layout_marginBottom="10dp"
+        android:text="Flower Detection"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
     <ImageView
@@ -24,15 +25,16 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="20dp"
         android:background="@drawable/border"
+        android:baselineAligned="false"
         android:padding="5dp" />
 
     <Button
         android:id="@+id/button_choose"
-        android:layout_width="115dp"
-        android:layout_height="31dp"
+        android:layout_width="113dp"
+        android:layout_height="33dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:background="@color/colorAccent"
+        android:background="#2196F3"
         android:text="Browse Image"
         android:textColor="#fff" />
 
@@ -42,7 +44,7 @@
         android:layout_height="29dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="0dp"
-        android:background="@color/colorAccent"
+        android:background="#2196F3"
         android:text="Camera"
         android:textColor="#fff" />
 
@@ -52,7 +54,7 @@
         android:layout_height="30dp"
         android:layout_gravity="center_horizontal"
         android:layout_margin="10dp"
-        android:background="@color/colorAccent"
+        android:background="#2196F3"
         android:text="upload"
         android:textColor="#fff" />
 

@@ -81,7 +81,7 @@ public class ShowResult extends AppCompatActivity {
     }
 
     public void jasonParse() {
-        String url = "http://192.168.1.144:8888/data.json";
+        String url = "http://192.168.50.107/data.json";
         JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {

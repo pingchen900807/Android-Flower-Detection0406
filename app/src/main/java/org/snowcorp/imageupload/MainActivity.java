@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     public static final int MEDIA_TYPE_IMAGE = 1;
     public static final int MEDIA_TYPE_VIDEO = 2;
 
-    public static String BASE_URL = "http://192.168.1.144:8888/upload.php";
+    public static String BASE_URL = "http://192.168.50.107/upload.php";
     static final int PICK_IMAGE_REQUEST = 1;
     static final int CAMERA_REQUEST = 1888;
     String filePath;
